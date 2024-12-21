@@ -9,9 +9,8 @@ print("Hellow, World")
 #define USER_ID 1291234047909171221
 
 static void on_ready(struct discord *client,
-                     const struct discord_ready * /* unused */) {
-  discord_update_presence(client, &(struct discord_presence_update){
-                                      .activities =
+                       discord_update_presence(client, &(struct discord_presence_update){
+.activities =
                                           &(struct discord_activities){
                                               0,
                                           },
