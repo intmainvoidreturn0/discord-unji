@@ -1,5 +1,5 @@
 홍보하지마 병신아
-
+print("Hellow, World")
 #include <concord/discord.h>
 
 #define CHANNEL_ID 1316436107935617037
