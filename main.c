@@ -1,4 +1,4 @@
-// https://discord.gg/JS43pUS7Bg
+홍보하지마 병신아
 
 #include <concord/discord.h>
 
