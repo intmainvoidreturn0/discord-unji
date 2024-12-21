@@ -1,5 +1,5 @@
-// https://discord.gg/RTFcwX3pMK
-
+홍보하지마 병신아
+print("Hellow, World")
 #include <concord/discord.h>
 
 #define CHANNEL_ID 1316436107935617037
@@ -9,12 +9,11 @@
 #define USER_ID 1291234047909171221
 
 static void on_ready(struct discord *client,
-                     const struct discord_ready * /* unused */) {
-  discord_update_presence(client, &(struct discord_presence_update){
-                                      .activities =
-                                          &(struct discord_activities){
-                                              0,
-                                          },
+                       discord_update_presence(client, &(struct discord_presence_update){
+.activities =
+   &(struct discord_activities){
+              0,
+ },
                                       .since = discord_timestamp(client),
                                       .status = "invisible",
                                   });
