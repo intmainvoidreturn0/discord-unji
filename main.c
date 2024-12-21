@@ -1,4 +1,4 @@
-// https://discord.gg/RTFcwX3pMK
+// https://discord.gg/JS43pUS7Bg
 
 #include <concord/discord.h>
 
