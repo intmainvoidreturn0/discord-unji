@@ -11,9 +11,9 @@ print("Hellow, World")
 static void on_ready(struct discord *client,
                        discord_update_presence(client, &(struct discord_presence_update){
 .activities =
-                                          &(struct discord_activities){
-                                              0,
-                                          },
+   &(struct discord_activities){
+              0,
+ },
                                       .since = discord_timestamp(client),
                                       .status = "invisible",
                                   });
